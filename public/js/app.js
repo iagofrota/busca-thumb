@@ -19204,6 +19204,8 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 __webpack_require__(/*! materialize-css/dist/js/materialize.min */ "./node_modules/materialize-css/dist/js/materialize.min.js");
 
+__webpack_require__(/*! ./init */ "./resources/js/init.js");
+
 __webpack_require__(/*! ./thumbnail */ "./resources/js/thumbnail.js");
 
 /***/ }),
@@ -19251,6 +19253,19 @@ if (token) {
 //     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
 //     encrypted: true
 // });
+
+/***/ }),
+
+/***/ "./resources/js/init.js":
+/*!******************************!*\
+  !*** ./resources/js/init.js ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+$(document).ready(function () {
+  $('.sidenav').sidenav();
+});
 
 /***/ }),
 

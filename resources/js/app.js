@@ -6,4 +6,5 @@
 
 require('./bootstrap');
 require('materialize-css/dist/js/materialize.min');
+require('./init');
 require('./thumbnail');

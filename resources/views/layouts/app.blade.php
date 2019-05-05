@@ -40,13 +40,15 @@
 
 <body>
 <nav class="red darken-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="http://buscathumb.com.br/" class="brand-logo">BuscaThumb</a>
+    <div class="nav-wrapper container"><a id="logo-container" href="{{ url('/') }}" class="brand-logo">BuscaThumb</a>
         <ul class="right hide-on-med-and-down">
-            <li><a href="http://buscathumb.com.br/">Início</a></li>
+            <li><a href="{{ url('/') }}">Início</a></li>
+            <li><a href="{{ url('/contato') }}">Contato</a></li>
         </ul>
 
         <ul id="nav-mobile" class="sidenav">
-            <li><a href="http://buscathumb.com.br/">Início</a></li>
+            <li><a href="{{ url('/') }}">Início</a></li>
+            <li><a href="{{ url('/contato') }}">Contato</a></li>
         </ul>
         <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
