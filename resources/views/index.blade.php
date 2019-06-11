@@ -4,7 +4,7 @@
     <div class="row center">
         <div class="row">
             <h5 class="header col s12 light">
-                Uma forma fácil e rápida para pegar a miniatura do Youtube! Copie e cole a URL do Youtube no campos
+                Uma forma fácil e rápida para pegar a miniatura de um vídeo no Youtube! Copie e cole a URL do Youtube no campo
                 abaixo.
             </h5>
             <br/><br/><br/><br/><br/><br/><br/>
