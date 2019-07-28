@@ -63,9 +63,28 @@
 </div>
 
 <footer class="page-footer red darken-1">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Sobre</h5>
+                <p class="grey-text text-lighten-4">Apenas um projeto pessoal para buscar miniaturas
+                do Youtube</p>
+
+            </div>
+            <div class="col l3 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                    <li><a class="white-text" href="{{ url('/') }}">Início</a></li>
+                    <li><a class="white-text" href="{{ url('/contato') }}">Contato</a></li>
+                    <li><a class="white-text" href="https://iagofrota.com.br" target="_blank"></a>Meu site</li>
+                </ul>
+            </div>
+        </div>
+    </div>
     <div class="footer-copyright">
         <div class="container">
-
+            Made by <a class="orange-text text-lighten-3" href="https://iagofrota.com.br" target="_blank">Iago
+                Frota</a>
         </div>
     </div>
 </footer>
