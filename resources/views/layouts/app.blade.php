@@ -76,7 +76,7 @@
                 <ul>
                     <li><a class="white-text" href="{{ url('/') }}">Início</a></li>
                     <li><a class="white-text" href="{{ url('/contato') }}">Contato</a></li>
-                    <li><a class="white-text" href="https://iagofrota.com.br" target="_blank"></a>Meu site</li>
+                    <li><a class="white-text" href="https://iagofrota.com.br" target="_blank">Meu site</a></li>
                 </ul>
             </div>
         </div>
