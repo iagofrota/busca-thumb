@@ -40,7 +40,7 @@
 
 <body>
 <nav class="red darken-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="{{ url('/') }}" class="brand-logo">BuscaThumb</a>
+    <div class="nav-wrapper container"><a id="logo-container" href="{{ url('/') }}" class="brand-logo">{{ config('app.name') }}</a>
         <ul class="right hide-on-med-and-down">
             <li><a href="{{ url('/') }}">Início</a></li>
             <li><a href="{{ url('/contato') }}">Contato</a></li>
