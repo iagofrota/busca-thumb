@@ -44,7 +44,14 @@
 	<meta property="og:description" content="Uma forma fácil e rápida para pegar a miniatura de um vídeo no Youtube!">
 	<meta property="og:url" content="https://buscathumb.com.br/">
 	<meta property="og:site_name" content="{{ config('app.name') }}">
+	<meta property="og:image" content="https://iagofrota.com.br/wp-content/uploads/2020/05/logo-busca-thumb.jpg"/>
+	<meta property="og:image:type" content="image/jpeg">
+	<meta property="og:image:width" content="1280">
+	<meta property="og:image:height" content="720">
 
+	<meta name="twitter:title" content="BuscaThumb">
+	<meta name="twitter:description" content="Uma forma fácil e rápida para pegar a miniatura de um vídeo no Youtube!">
+	<meta name="twitter:image" content="https://iagofrota.com.br/wp-content/uploads/2020/05/logo-busca-thumb.jpg">
 
 	<link rel=canonical href=https://buscathumb.com.br/>
 
